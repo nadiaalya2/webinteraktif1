@@ -21,7 +21,7 @@ def page_3():
     
 PAGES = {
     "Page 1" : page_1,
-    "Page 2" : page_3,
+    "Page 2" : page_2,
     "Page 3" : page_3
 }
 
