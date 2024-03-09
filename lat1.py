@@ -27,3 +27,18 @@ PAGES = {
 st.sidebar.image("nadiaalya.jpeg", width=200)
 page = st.sidebar.radio("Halaman", list(PAGES.keys()))
 PAGES[page]()
+
+st.markdown(
+    """
+            <style
+            [data-testid="stActionButtonIcon"] {
+                display: none;
+            }
+            [data-testid="baseButton-headder"] {
+                display: none;
+            }
+            
+            </style>
+            """,
+    unsafe_allow_html=True,
+)
