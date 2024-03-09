@@ -30,11 +30,11 @@ PAGES[page]()
 
 st.markdown(
     """
-            <style
+            <style>
             [data-testid="stActionButtonIcon"] {
                 display: none;
             }
-            [data-testid="baseButton-headder"] {
+            [data-testid="baseButton-header"] {
                 display: none;
             }
             
